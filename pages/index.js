@@ -25,7 +25,7 @@ class Index extends React.Component {
   render () {
     return (
       <div className="container">
-        <Examples />
+        {/* <Examples /> */}
         
         <Link href="/BookPage"><button className="btn btn-info">Click for books</button></Link>
       </div>

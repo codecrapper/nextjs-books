@@ -14817,13 +14817,7 @@ function (_React$Component) {
           lineNumber: 27
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_examples__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/BookPage",
         __source: {
           fileName: _jsxFileName,
@@ -15072,7 +15066,7 @@ function initializeStore() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CGeon%5CDesktop%5Cnextcrap%5Cnext-redux-thunk%5Cpages%5Cindex.js ***!
   \***********************************************************************************************************************************************/
@@ -15095,5 +15089,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

@@ -6,6 +6,7 @@ import Link from 'next/link'
 
 import Jumbotron from '../components/Jumbotron'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 
 const BookPage = ({ dispatch, loading, booksData }) => {
@@ -53,6 +54,7 @@ const BookPage = ({ dispatch, loading, booksData }) => {
             <br />
             {renderBooksTest()}
             <Link href="/index"><button className="justify-content-end btn btn-warning">Back</button></Link>
+            <Footer />
         </div>
     )
 }

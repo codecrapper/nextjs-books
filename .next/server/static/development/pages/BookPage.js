@@ -88,10 +88,86 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./components/Footer.js":
+/*!******************************!*\
+  !*** ./components/Footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\Geon\\Desktop\\nextcrap\\next-redux-thunk\\components\\Footer.js";
+
+
+var Footer = function Footer() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    style: {
+      marginTop: "2rem"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-center font-italic",
+    style: {
+      color: '#A6A6A6'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "If you click on some of these links and end up purchasing something, I ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "font-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("u", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "WILL NOT")), " receive commission.(yeh i do)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-center font-italic",
+    style: {
+      color: '#A6A6A6'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "All earnings go to charity *wink wink nudge nudge*"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "text-center",
+    style: {
+      marginTop: "3rem",
+      marginBottom: "2rem",
+      color: "#D9D9D9"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "\xA9 2019 KOB. All rights reserved."));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
 
 /***/ "./components/Jumbotron.js":
 /*!*********************************!*\
@@ -104,7 +180,10 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _JumbotronStyle_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./JumbotronStyle.css */ "./components/JumbotronStyle.css");
+/* harmony import */ var _JumbotronStyle_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_JumbotronStyle_css__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "C:\\Users\\Geon\\Desktop\\nextcrap\\next-redux-thunk\\components\\Jumbotron.js";
+
 
 
 var Jumbotron = function Jumbotron() {
@@ -112,34 +191,45 @@ var Jumbotron = function Jumbotron() {
     className: "jumbotron",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "over container body-content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "display-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, "A curated directory of books for you(shit kunt) to help you along your python programming peregrination"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, "Buy them all mate ;)")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Jumbotron);
+
+/***/ }),
+
+/***/ "./components/JumbotronStyle.css":
+/*!***************************************!*\
+  !*** ./components/JumbotronStyle.css ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
@@ -164,18 +254,24 @@ var NavBar = function NavBar() {
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "nav justify-content-center",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row text-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
     },
     __self: this
   }, "Curated by the ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -191,7 +287,8 @@ var NavBar = function NavBar() {
       lineNumber: 8
     },
     __self: this
-  }, "CodeCrapper \uD83D\uDCA9"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "CodeCrapper \uD83D\uDCA9")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -204,11 +301,17 @@ var NavBar = function NavBar() {
       lineNumber: 11
     },
     __self: this
-  }, "Add a book")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item",
+  }, "Add a book")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: this
   }, "Vote for this produce on ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -224,7 +327,7 @@ var NavBar = function NavBar() {
       lineNumber: 14
     },
     __self: this
-  }, "Product Hunt")))));
+  }, "Product Hunt"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBar);
@@ -1123,7 +1226,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_Jumbotron__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Jumbotron */ "./components/Jumbotron.js");
 /* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/NavBar */ "./components/NavBar.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
 var _jsxFileName = "C:\\Users\\Geon\\Desktop\\nextcrap\\next-redux-thunk\\pages\\BookPage.js";
+
 
 
 
@@ -1154,60 +1259,60 @@ var BookPage = function BookPage(_ref) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 28
+            lineNumber: 29
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "col-sm-3",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 29
+            lineNumber: 30
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
           src: book.volumeInfo.imageLinks.thumbnail,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 30
+            lineNumber: 31
           },
           __self: this
         })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "col-sm-9",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 32
+            lineNumber: 33
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 33
+            lineNumber: 34
           },
           __self: this
         }, book.volumeInfo.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
           className: "font-italic",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 34
+            lineNumber: 35
           },
           __self: this
         }, "By ", book.volumeInfo.authors[0]), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 35
+            lineNumber: 36
           },
           __self: this
         }, book.volumeInfo.description ? "".concat(book.volumeInfo.description.substring(0, 200), "...") : loremFiller), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 36
+            lineNumber: 37
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
           href: book.volumeInfo.infoLink,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 36
+            lineNumber: 37
           },
           __self: this
         }, "Go to the Amazon page to read more & make me money."))));
@@ -1218,7 +1323,7 @@ var BookPage = function BookPage(_ref) {
       className: "text-center",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 43
       },
       __self: this
     }, "LOADING...");
@@ -1228,7 +1333,7 @@ var BookPage = function BookPage(_ref) {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -1239,28 +1344,22 @@ var BookPage = function BookPage(_ref) {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 48
     },
     __self: this
   }, "Some Python Books!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Jumbotron__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 49
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavBar__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavBar__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51
@@ -1278,21 +1377,33 @@ var BookPage = function BookPage(_ref) {
       lineNumber: 53
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
   }), renderBooksTest(), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/index",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "justify-content-end btn btn-warning",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 56
     },
     __self: this
-  }, "Back")));
+  }, "Back")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }));
 };
 
 var mapStateToProps = function mapStateToProps(state) {
@@ -1534,7 +1645,7 @@ function initializeStore() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!*********************************!*\
   !*** multi ./pages/BookPage.js ***!
   \*********************************/
