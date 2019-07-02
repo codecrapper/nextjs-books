@@ -15,6 +15,13 @@ export const actionTypes = {
   RESET: 'RESET'
 }
 
+// intial state for books
+
+const booksInitialState = {
+  loading: false,
+  booksData: []
+}
+
 // REDUCERS
 export const reducer = (state = exampleInitialState, action) => {
   switch (action.type) {
@@ -35,6 +42,29 @@ export const reducer = (state = exampleInitialState, action) => {
       return Object.assign({}, state, {
         count: exampleInitialState.count
       })
+    default:
+      return state
+  }
+}
+
+// reducer for books
+export const booksReducer = (state = booksInitialState, action) => {
+  switch(action.type) {
+    case 'FETCH_BOOKS': 
+      return {
+        ...state,
+        booksData: [...action.payload]
+      }
+    case 'START_FETCHING_BOOKS': 
+      return {
+        ...state,
+        loading: true
+      }
+    case 'FINISH_FETCHING_BOOKS':
+      return {
+        ...state,
+        loading: false
+      }
     default:
       return state
   }
@@ -63,9 +93,38 @@ export const resetCount = () => dispatch => {
   return dispatch({ type: actionTypes.RESET })
 }
 
-export function initializeStore (initialState = exampleInitialState) {
+// FETCH BOOK DATA FROM API ACTION
+export const fetchBooksData = () => async dispatch => {
+  dispatch(startFetchingBooks())
+
+  let res = await fetch('https://www.googleapis.com/books/v1/volumes?q=python')
+  let data = await res.json()
+
+  dispatch(finishFetchingBooks())
+  
+  return dispatch({ type: 'FETCH_BOOKS', payload: data.items })
+}
+
+export const startFetchingBooks = () => {
+  return { type: 'START_FETCHING_BOOKS' }
+}
+
+export const finishFetchingBooks = () => {
+  return { type: 'FINISH_FETCHING_BOOKS' }
+}
+// ----------------------------------------------------------------
+
+// export function initializeStore (initialState = exampleInitialState) {
+//   return createStore(
+//     reducer,
+//     initialState,
+//     composeWithDevTools(applyMiddleware(thunkMiddleware))
+//   )
+// }
+
+export function initializeStore (initialState = booksInitialState) {
   return createStore(
-    reducer,
+    booksReducer,
     initialState,
     composeWithDevTools(applyMiddleware(thunkMiddleware))
   )

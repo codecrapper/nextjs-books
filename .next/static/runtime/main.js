@@ -6671,7 +6671,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "/Users/dennyv/Desktop/Projects/next.js/examples/with-redux-thunk/.next");
+      source_map_support_1.rewriteStacktrace(error, "C:\\Users\\Geon\\Desktop\\nextcrap\\next-redux-thunk\\.next");
       return error;
     }
   };
